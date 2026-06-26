@@ -243,3 +243,12 @@ nav .container h1 {
         display: block;
     }
 }
+
+/* The theme toggle is fixed at the top-right of the viewport and overlaps the
+   nav on narrower screens, where the centered nav reaches near the edge. Inset
+   the nav's right-side content (the Help link) so it never sits under it. */
+@media (max-width: 720px) {
+    nav .container .right-nav {
+        margin-right: 3em;
+    }
+}
