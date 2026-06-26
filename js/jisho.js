@@ -114,7 +114,7 @@ function renderResult(array) {
     $("#alert").hide();
     if (currentLanguage === "en") {
       $("#alert").html(
-        "<a href='https://github.com/MichaelCharles/pokejisho/issues' target='_blank' class='alert'>Can't find what you're looking for? Submit an Issue on GitHub."
+        "<a href='https://github.com/pokejisho/pokejisho_web/issues' target='_blank' class='alert'>Can't find what you're looking for? Submit an Issue on GitHub."
       );
     } else {
       $("#alert").html(
