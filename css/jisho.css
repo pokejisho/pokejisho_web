@@ -109,6 +109,7 @@ nav .container h1 {
 
 #term {
     background: var(--color-surface);
+    color: var(--color-text);
     width: 100%;
     padding: 1em;
     max-width: 600px;
@@ -117,6 +118,11 @@ nav .container h1 {
     box-sizing: border-box;
     border-radius: 4px;
 }
+
+#term::-webkit-input-placeholder { color: var(--color-text-secondary); }
+#term::-moz-placeholder { color: var(--color-text-secondary); }
+#term:-ms-input-placeholder { color: var(--color-text-secondary); }
+#term::placeholder { color: var(--color-text-secondary); }
 
 #render-area {
     margin: 0 auto;
