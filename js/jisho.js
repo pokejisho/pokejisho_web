@@ -129,7 +129,7 @@ function renderResult(array) {
   for (i = 0; i < array.length; i++) {
     var result = array[i];
     result.us = result.english.replace(/ /g, "_"); // Underscored Result Name for URL
-    result.urlJA = "https://wiki.xn--rckteqa2e.com/wiki/" + result.japanese;
+    result.urlJA = "https://wiki.pokemonwiki.com/wiki/" + result.japanese;
     result.url = "https://bulbapedia.bulbagarden.net/wiki/" + result.us;
 
     $resultRow = $('<div class="result"></div>');
