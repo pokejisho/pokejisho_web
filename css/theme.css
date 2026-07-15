@@ -1,10 +1,15 @@
 /*
  * Theme tokens + the dark/light toggle button.
  *
- * Light values reproduce the site's original palette unchanged. Dark values
+ * Light values reproduce the site's original palette (accent aside, see
+ * below). Dark values
  * mirror the PokéJisho iOS app's dark appearance (iOS system semantic colors:
  * black base, #1C1C1E elevated surfaces, white / secondary-gray text), with a
  * lightened indigo for links/accents so they read on dark backgrounds.
+ *
+ * The brand accent (--color-accent, also the theme-color meta tag and the
+ * logo/icon green across the web, iOS, and Android apps) was historically
+ * #CDDC39; it was updated to #97CA3E in July 2026.
  *
  * Resolution:
  *   - no [data-theme]            -> follows the OS via prefers-color-scheme
