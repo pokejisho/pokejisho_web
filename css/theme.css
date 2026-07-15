@@ -22,7 +22,7 @@
     --color-link: #3f51b5;
     --color-link-hover: #536dfe;
     --color-shadow: rgba(33, 33, 33, 0.3);
-    --color-accent: #cddc39;
+    --color-accent: #97ca3e;
 }
 
 /* Dark values, shared by the OS-preference path and the forced path. */
@@ -35,7 +35,7 @@
         --color-link: #8c9eff;
         --color-link-hover: #b0bcff;
         --color-shadow: rgba(0, 0, 0, 0.6);
-        --color-accent: #cddc39;
+        --color-accent: #97ca3e;
     }
 }
 
@@ -47,7 +47,7 @@
     --color-link: #8c9eff;
     --color-link-hover: #b0bcff;
     --color-shadow: rgba(0, 0, 0, 0.6);
-    --color-accent: #cddc39;
+    --color-accent: #97ca3e;
 }
 
 /* Toggle button — fixed top-right so it works on every page regardless of layout. */
